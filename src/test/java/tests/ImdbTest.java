@@ -30,7 +30,7 @@ public class ImdbTest {
         // Params
         String url = "https://www.imdb.com";
         String toSearch = "QA";
-        int titleIndx = 2; // index 2, page "Stranger Things" contains "Top cast ection"
+        int titleIndx = 0; // index 2, page "Stranger Things" contains "Top cast ection"
         String topCastText = "Top cast";
         int topCastCount = 3;
         int memberIndx = 2;
